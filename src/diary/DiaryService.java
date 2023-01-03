@@ -9,6 +9,7 @@ public class DiaryService {
 
     static Map<Integer, Diary> mapDiary = new HashMap<>();
 
+
     public static void addDiary(Diary diary) {
         mapDiary.put(diary.getId(), diary);
     }

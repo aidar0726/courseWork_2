@@ -33,6 +33,7 @@ public class Diary {
         id = id + 1;
     }
 
+
     public String getHeader() {
         return header;
     }

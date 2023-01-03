@@ -1,6 +1,7 @@
 package diary;
 
 public enum Sign {
+
     SINGLE,
     DAILY,
     WEEKLY,

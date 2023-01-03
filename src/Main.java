@@ -27,6 +27,7 @@ public class Main {
                             Integer diaryDeleteId = scanner.nextInt();
                             deleteDiary(diaryDeleteId);
                             break;
+
                         case 3:
                             System.out.print("Введите год ");
                             Integer year = scanner.nextInt();
@@ -96,7 +97,7 @@ public class Main {
                 return Sign.ANNUAL;
         }
 
-        return Sign.SINGLE;//возвращает по умолчнанию одноктратную заметку
+        return Sign.SINGLE; //возвращает по умолчнанию одноктратную заметку
 
     }
 
